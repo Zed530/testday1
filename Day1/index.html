@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="vue_det">
+    <p>site:{{site}}</p>
+    <p>url:{{url}}</p>
+    <p>Alexa:{{alexa}}</p>
+</div>
+
+<script>
+   let vm =new Vue({
+        el: '#vue_det',
+        data: {
+            site: "晓看天色暮看云",
+            url:"http://localhost:63343/testday1/index.html?_ijt=o36g237ktudvl5asm7bjeevk0h&_ij_reload=RELOAD_ON_SAVE",
+            alexa:"行也思君,坐也思君"
+        }
+    })
+
+</script>
+</body>
+</html>
